@@ -4,7 +4,7 @@ public class FinalDemo extends Final_Method {
 	
 	
 	//try to override final method
-	public final void display()
+	public final void display() //Cannot override the final method from Final_Method
 	
 	
 	

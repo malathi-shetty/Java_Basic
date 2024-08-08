@@ -2,10 +2,8 @@ package finalClass;
 
 
 // try to extend the final class
-public class JuneClass extends Final_Class {
+ public class JuneClass extends Final_Class { //The type JuneClass cannot subclass the final class Final_Class
 
-	
-	
 	
 	
 		public void display()
