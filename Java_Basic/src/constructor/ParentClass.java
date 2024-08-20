@@ -5,11 +5,11 @@ public class ParentClass {
 	
 	static 
 	{
-		System.out.println("parent static blocks");
+		System.out.println("parent static static_instanceBlocks");
 	}
 	
 	{
-		System.out.println("parent instance blocks");
+		System.out.println("parent instance static_instanceBlocks");
 	}
 	
 	static void m1(){

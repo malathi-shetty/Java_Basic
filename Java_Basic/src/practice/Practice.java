@@ -3,7 +3,7 @@ package practice;
 public class Practice {
 	
 	//class would be loaded first
-	// then it would identify static blocks, static methods
+	// then it would identify static static_instanceBlocks, static methods
 	
 	private static int k = 10;
 	static { // static block would be executed once its loaded. 

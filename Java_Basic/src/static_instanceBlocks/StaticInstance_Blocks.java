@@ -1,12 +1,12 @@
-package blocks;
+package static_instanceBlocks;
 
 public class StaticInstance_Blocks {
 	
 	static {
-		System.out.println("static blocks");
+		System.out.println("static static_instanceBlocks");
 	}
 	 {
-			System.out.println("Instance blocks");
+			System.out.println("Instance static_instanceBlocks");
 		} 
 	 static void m1() {
 		 System.out.println("static method");
