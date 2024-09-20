@@ -10,12 +10,24 @@ public class Instance_Variable {
 */
 	
 	int b=10;
+	
+	public class MyClass {
+	    int instanceVar;  // instance variable
+
+	    public MyClass(int value) {
+	        this.instanceVar = value;
+	    }
+
+	    public void display() {
+	        System.out.println(instanceVar);
+	    }
+	}
 
 	public static void main(String[] args) {
 		
 		Instance_Variable iv = new Instance_Variable();
 		System.out.println(iv.b);
-
+		
 		
 	}
 

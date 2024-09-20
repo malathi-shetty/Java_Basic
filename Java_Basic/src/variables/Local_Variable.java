@@ -8,7 +8,14 @@ public class Local_Variable {
 		
 		int i = 100;
 		System.out.println(i);
-
+		someMethod();
+	}
+	
+	public static void someMethod() {
+	    int localVar = 10;  // local variable
+	    System.out.println("localVar: " + localVar);
 	}
 
+
 }
+
