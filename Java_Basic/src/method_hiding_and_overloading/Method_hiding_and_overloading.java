@@ -31,3 +31,15 @@ public class Method_hiding_and_overloading {
 	    
 	
 }
+
+/*
+
+Output:
+
+Static method m1 with no parameters
+
+Static method m1 with parameters: 5 and 10
+
+Instance method m2 returns: 42
+
+*/
